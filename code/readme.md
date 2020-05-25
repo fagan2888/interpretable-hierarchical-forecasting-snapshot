@@ -1,0 +1,2 @@
+# Code
+The code directory is a direct mirror of the [notebook directory](../notebook). The folder structure is identical and whenever a notebook is saved in the notebook directory, a post-save hook in jupyter is triggered to export the notebook as plain python code into the corresponding folder in this directory. The code is also auto-formatted using black. This procedure allows to develop code in jupyter notebook while keeping the readible diffs of plain python scripts when committing new changes to git.
